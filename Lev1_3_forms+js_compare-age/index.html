@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Übung lev1_1: forms+js_function-double</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="box">
+        <form action="#">
+            <!-- 1.Person -->
+            <label for="person_one">1. Person - Alter</label>
+            <input type="number" id="person_one" placeholder="Alter eingeben" required>
+            <!-- 2.Person -->
+            <label for="person_two">1. Person - Alter</label>
+            <input type="number" id="person_two" placeholder="Alter eingeben" required>
+            <button type="button" onclick="altersDifferenz(event)">Rechenknecht</button>
+        </form>
+        <h1>Der Alterunterschied beträgt: <span id="result"></span><br>Jahre</h1>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

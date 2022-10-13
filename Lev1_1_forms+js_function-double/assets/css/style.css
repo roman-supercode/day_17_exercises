@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    margin: 50px auto;
+    padding: 50px;
+    gap: 50px;
+}
+
+#result {
+    background-color: yellow;
+    padding: 40px;
+    border-radius: 50%;
+}
